@@ -1,0 +1,21 @@
+# Bases de datos y datos pesados (NO RESPALDAR)
+odoo_data/
+postgres_data/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de datos grandes y temporales
+*.csv
+plantillas/*.zip
+plantillas/*.crdownload
+catalog_public/images/
+
+# Entornos y configuración sensible
+.env
+.vscode/
+
+# Ignorar archivos del sistema
+.DS_Store
